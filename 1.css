@@ -1,0 +1,24 @@
+button { 
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+    background-color: #000000; 
+    width: 10%; 
+    font-size: 16px; }
+
+input{
+    display: block;
+    width: 25%;
+    border: 1px solid;
+    margin: 5px;
+    padding: 10px;
+    border-radius:10px ;
+}
+
+body{
+    background-color: rgb(114, 88, 88) ;
+}
