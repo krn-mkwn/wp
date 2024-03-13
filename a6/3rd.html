@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container {
+     display: flex;
+     width: 100%; 
+     height: 100vh;
+     position: relative; 
+}
+
+.square {
+  width: 100px; 
+  height: 100px; 
+}
+
+.top-right {
+  position: absolute;
+  top: 0; 
+  right: 0; 
+  background-color: aqua;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  background-color: rebeccapurple;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 0; 
+  right: 0; 
+  background-color: blue;
+}
+
+.top-left {
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  background-color: black;
+}
+
+.center{
+  background-color: rgb(155, 115, 125);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+    </style>
+</head>
+<body>
+    
+        <div class="container">
+          <div class="square top-right"></div>
+          <div class="square bottom-left"></div>
+          <div class="square bottom-right"></div>
+          <div class="square top-left"></div>
+          <div class="square center"></div>
+        </div>
+      
+</body>
+</html>
